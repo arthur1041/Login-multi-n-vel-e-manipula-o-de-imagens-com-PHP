@@ -12,11 +12,12 @@ class ComposerStaticInit929cd0c935947637cc59fd0c639c7c30
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
-        'ef65a1626449d89d0811cf9befce46f0' => __DIR__ . '/..' . '/illuminate/events/functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        'ef65a1626449d89d0811cf9befce46f0' => __DIR__ . '/..' . '/illuminate/events/functions.php',
         '253c157292f75eb38082b5acb06f3f01' => __DIR__ . '/..' . '/nikic/fast-route/src/functions.php',
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
         'b33e3d135e5d9e47d845c576147bda89' => __DIR__ . '/..' . '/php-di/php-di/src/functions.php',
+        '32b0e3923194ab469a640d51c243b626' => __DIR__ . '/../..' . '/app/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -71,11 +72,16 @@ class ComposerStaticInit929cd0c935947637cc59fd0c639c7c30
         'D' => 
         array (
             'Doctrine\\Inflector\\' => 19,
+            'DI\\Bridge\\Slim\\' => 15,
             'DI\\' => 3,
         ),
         'C' => 
         array (
             'Carbon\\' => 7,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -196,6 +202,10 @@ class ComposerStaticInit929cd0c935947637cc59fd0c639c7c30
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
         ),
+        'DI\\Bridge\\Slim\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/php-di/slim-bridge/src',
+        ),
         'DI\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-di/php-di/src',
@@ -203,6 +213,10 @@ class ComposerStaticInit929cd0c935947637cc59fd0c639c7c30
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

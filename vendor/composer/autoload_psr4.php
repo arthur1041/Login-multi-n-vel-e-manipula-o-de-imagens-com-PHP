@@ -34,6 +34,8 @@ return array(
     'Fig\\Http\\Message\\' => array($vendorDir . '/fig/http-message-util/src'),
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
     'Doctrine\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Inflector'),
+    'DI\\Bridge\\Slim\\' => array($vendorDir . '/php-di/slim-bridge/src'),
     'DI\\' => array($vendorDir . '/php-di/php-di/src'),
     'Carbon\\' => array($vendorDir . '/nesbot/carbon/src/Carbon'),
+    'App\\' => array($baseDir . '/app'),
 );

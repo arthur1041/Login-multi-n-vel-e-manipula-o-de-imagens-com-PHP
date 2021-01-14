@@ -11,9 +11,10 @@ return array(
     'a4a119a56e50fbb293281d9a48007e0e' => $vendorDir . '/symfony/polyfill-php80/bootstrap.php',
     'a1105708a18b76903365ca1c4aa61b02' => $vendorDir . '/symfony/translation/Resources/functions.php',
     '72579e7bd17821bb1321b87411366eae' => $vendorDir . '/illuminate/support/helpers.php',
-    'ef65a1626449d89d0811cf9befce46f0' => $vendorDir . '/illuminate/events/functions.php',
     '7b11c4dc42b3b3023073cb14e519683c' => $vendorDir . '/ralouphie/getallheaders/src/getallheaders.php',
+    'ef65a1626449d89d0811cf9befce46f0' => $vendorDir . '/illuminate/events/functions.php',
     '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
     '538ca81a9a966a6716601ecf48f4eaef' => $vendorDir . '/opis/closure/functions.php',
     'b33e3d135e5d9e47d845c576147bda89' => $vendorDir . '/php-di/php-di/src/functions.php',
+    '32b0e3923194ab469a640d51c243b626' => $baseDir . '/app/helpers.php',
 );

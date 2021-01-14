@@ -1,6 +1,8 @@
 <?php
 use DI\Container;
+use App\Models\User;
 use Slim\Factory\AppFactory;
+use DI\Bridge\Slim\Bridge as SlimAppFactory;
 
 require __DIR__ . "/../vendor/autoload.php";
 
